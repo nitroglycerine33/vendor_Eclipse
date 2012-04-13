@@ -62,7 +62,13 @@ PRODUCT_COPY_FILES +=  \
 # Term binarry for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
-    vendor/Eclipse/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so 
+    vendor/Eclipse/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
+
+# Swype Beta
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/Swype.apk:system/app/Swype.apk \
+    vendor/Eclipse/proprietary/lib/armeabi/libnmsp_speex.so:system/lib/libnmsp_speex.so \
+    vendor/Eclipse/proprietary/lib/armeabi/libSwypeCore.3.26.92.38303.so:system/lib/libSwypeCore.3.26.92.38303.so
 
 # Term info for nano support
 PRODUCT_COPY_FILES += \
