@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf
 
+# CM9 T-Mobile Theme Engine
+include vendor/Eclipse/products/themes_common.mk
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
