@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Swype.apk:system/app/Swype.apk \
     vendor/Eclipse/proprietary/lib/armeabi/libnmsp_speex.so:system/lib/libnmsp_speex.so \
-    vendor/Eclipse/proprietary/lib/armeabi/libSwypeCore.3.26.92.38303.so:system/lib/libSwypeCore.3.26.92.38303.so
+    vendor/Eclipse/proprietary/lib/armeabi/libSwypeCore.3.26.92.39062.so:system/lib/libSwypeCore.3.26.92.39062.so
 
 # Term info for nano support
 PRODUCT_COPY_FILES += \
