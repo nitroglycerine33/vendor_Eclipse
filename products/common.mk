@@ -62,9 +62,9 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
 
-# S Voice
+# Music
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/SVoice.apk:system/app/SVoice.apk \
+    vendor/Eclipse/proprietary/Music.apk:system/app/Music.apk \
 
 # Term binarry for support for market updates
 PRODUCT_COPY_FILES +=  \
