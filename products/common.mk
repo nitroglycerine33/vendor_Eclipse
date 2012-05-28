@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES +=  \
 # Term binarry for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
-    vendor/Eclipse/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
+    vendor/Eclipse/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Swype Beta
 PRODUCT_COPY_FILES +=  \
