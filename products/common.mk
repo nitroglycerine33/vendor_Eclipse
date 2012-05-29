@@ -66,6 +66,10 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Music.apk:system/app/Music.apk \
 
+# Email
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/Email.apk:system/app/Email.apk \
+
 # Term binarry for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
