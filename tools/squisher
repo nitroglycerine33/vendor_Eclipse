@@ -58,6 +58,9 @@ find ./ -name \*.apk | $XARGS $OPTICHARGER
 # Relocate su
 mv $REPACK/ota/system/xbin/su $REPACK/ota/system/bin/su
 
+# Relocate boot.img - kind of a hack job but works for OTA zips
+mv $REPACK/ota/system/xbin/boot.img $REPACK/ota/boot.img
+
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
 
