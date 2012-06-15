@@ -10,10 +10,10 @@ PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
-    BUILD_ID=IMM76K \
+    BUILD_ID=IMM76L \
     BUILD_DISPLAY_ID=Eclipse-TORO \
-    BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys" \
-    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
+    BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76L/345519:user/release-keys" \
+    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76L 345519 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
