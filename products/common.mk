@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/xbin/sysrw:system/xbin/sysrw \
     vendor/Eclipse/prebuilt/common/xbin/zip:system/xbin/zip \
     vendor/Eclipse/prebuilt/common/xbin/zipalign:system/xbin/zipalign \
-    vendor/Eclipse/prebuilt/common/xbin/boot.img:system/xbin/boot.img \
+    vendor/Eclipse/prebuilt/kernel/boot.img:system/xbin/boot.img \
 
 
 # Enable SIP+VoIP on all targets
