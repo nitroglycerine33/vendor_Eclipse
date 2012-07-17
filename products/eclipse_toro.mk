@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
 
-PRODUCT_NAME := Eclipse_toro
+PRODUCT_NAME := eclipse_toro
 PRODUCT_BRAND := Google
 PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
