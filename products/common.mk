@@ -12,12 +12,43 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf \
     Stk \
+    EclipseWallpapers \
+    FileManager \
     Wallpapers
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     vendor/Eclipse/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
 
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+    vendor/Eclipse/prebuilt/common/bin/sysinit:system/bin/sysinit
+
+# Term info for nano support
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
+    vendor/Eclipse/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown
+
+# Google DNS servers and host file
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/Eclipse/prebuilt/common/etc/hosts:system/etc/hosts
+
+# Added xbin files
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/xbin/bash:system/xbin/bash \
+    vendor/Eclipse/prebuilt/common/xbin/nano:system/xbin/nano \
+    vendor/Eclipse/prebuilt/common/xbin/sysro:system/xbin/sysro \
+    vendor/Eclipse/prebuilt/common/xbin/sysrw:system/xbin/sysrw
+
+# Appwidgetpicker
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
+
+# Sense 4 Clock
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
 
 # Term binary for support for market updates
 PRODUCT_COPY_FILES +=  \
@@ -47,6 +78,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
-    ro.modversion=Eclipse-v.411-3 \
+    ro.modversion=Eclipse-ProgressBuild01 \
     ro.kernel.android.checkjni=0 \
     windowsmgr.max_events_per_sec=240
