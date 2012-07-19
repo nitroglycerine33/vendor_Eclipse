@@ -37,10 +37,10 @@ PRODUCT_COPY_FILES += \
 
 # Added xbin files
 PRODUCT_COPY_FILES += \
-    vendor/Eclipse/prebuilt/common/xbin/bash:system/xbin/bash \
-    vendor/Eclipse/prebuilt/common/xbin/nano:system/xbin/nano \
-    vendor/Eclipse/prebuilt/common/xbin/sysro:system/xbin/sysro \
-    vendor/Eclipse/prebuilt/common/xbin/sysrw:system/xbin/sysrw
+    vendor/Eclipse/prebuilt/common/bash:system/xbin/bash \
+    vendor/Eclipse/prebuilt/common/nano:system/xbin/nano \
+    vendor/Eclipse/prebuilt/common/sysro:system/xbin/sysro \
+    vendor/Eclipse/prebuilt/common/sysrw:system/xbin/sysrw
 
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
