@@ -65,12 +65,20 @@ $SED -i \
 -e '/ro\.build\.type/s/eng/user/' \
 $REPACK/ota/system/build.prop
 
+# Relocate boot.img - kind of a hack job but works for OTA zips
+mv $REPACK/ota/system/xbin/boot.img $REPACK/ota/boot.img
 
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
 
 # No need for recovery
 rm -rf $REPACK/ota/recovery
+
+# remove send_bug.jar 
+rm -rf $REPACK/ota/system/framework/send_bug.jar
+rm -rf $REPACK/ota/system/app/Provision.apk
+rm -rf $REPACK/ota/system/app/WAPPushManager.apk
+rm -rf $REPACK/ota/system/bin/bugmailer.sh
 
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \

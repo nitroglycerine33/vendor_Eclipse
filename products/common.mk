@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/sysro:system/xbin/sysro \
     vendor/Eclipse/prebuilt/common/sysrw:system/xbin/sysrw
 
+# Lean Kernel - Imoseyon
+PRODUCT_COPY_FILES +=  \
+vendor/Eclipse/prebuilt/common/kernel/boot.img:system/xbin/boot.img \
+
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
@@ -49,6 +53,10 @@ PRODUCT_COPY_FILES +=  \
 # Sense 4 Clock
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
+
+# Apex Launcher
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
 # Term binary for support for market updates
 PRODUCT_COPY_FILES +=  \
