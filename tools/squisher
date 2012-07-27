@@ -74,11 +74,14 @@ mv $REPACK/ota/system/xbin/boot.img $REPACK/ota/boot.img
 # No need for recovery
 rm -rf $REPACK/ota/recovery
 
-# remove send_bug.jar 
+# remove send_bug.jar
 rm -rf $REPACK/ota/system/framework/send_bug.jar
 rm -rf $REPACK/ota/system/app/Provision.apk
 rm -rf $REPACK/ota/system/app/WAPPushManager.apk
 rm -rf $REPACK/ota/system/bin/bugmailer.sh
+
+# remove Home.apk
+rm -rf $REPACK/ota/system/app/Home.apk
 
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \
