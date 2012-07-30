@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
+# Email
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/Email.apk:system/app/Email.apk \
+
 # Term binary for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
