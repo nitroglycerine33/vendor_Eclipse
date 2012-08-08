@@ -6,7 +6,7 @@ PRODUCT_BRAND := Google
 PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03H BUILD_DISPLAY_ID=JRO03C BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03L BUILD_DISPLAY_ID=JRO03L BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
@@ -26,4 +26,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
     vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/toro
+PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
