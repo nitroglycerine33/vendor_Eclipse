@@ -61,10 +61,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
-# OTA Update Center Pro
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/OTAUpdater-RC4.apk:system/app/OTAUpdater-RC4.apk \
-
 # Email
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Email.apk:system/app/Email.apk \
