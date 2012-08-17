@@ -61,6 +61,10 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
+# OTA Update Center Pro
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/OTAUpdater-RC4.apk:system/app/OTAUpdater-RC4.apk \
+
 # Email
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Email.apk:system/app/Email.apk \
@@ -100,6 +104,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
-    ro.modversion=Eclipse-Build11 \
+    ro.modversion=Eclipse-Build12 \
     ro.kernel.android.checkjni=0 \
     windowsmgr.max_events_per_sec=240
