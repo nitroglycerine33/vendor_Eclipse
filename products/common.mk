@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/HoloLauncherHD.apk:system/app/HoloLauncherHD.apk \
+    vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
 # Email
 PRODUCT_COPY_FILES +=  \
