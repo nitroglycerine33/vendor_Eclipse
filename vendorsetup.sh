@@ -1,1 +1,2 @@
 add_lunch_combo eclipse_toro-userdebug
+add_lunch_combo eclipse_grouper-userdebug

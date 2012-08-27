@@ -2,8 +2,6 @@ PRODUCT_NAME := Eclipse
 PRODUCT_BRAND := Eclipse
 PRODUCT_DEVICE := generic
 
-KERNEL_MODULES_DIR:=/system/lib/modules
-
 PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/common
 
@@ -45,21 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/sysro:system/xbin/sysro \
     vendor/Eclipse/prebuilt/common/sysrw:system/xbin/sysrw
 
-# Trinity Kernel - morfic
-PRODUCT_COPY_FILES +=  \
-vendor/Eclipse/prebuilt/common/kernel/boot.img:system/xbin/boot.img \
-
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
 
-# Sense 4 Clock
+# Launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
-
-# Apex Launcher
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/Eclipse/proprietary/HoloLauncherHD.apk:system/app/HoloLauncherHD.apk \
 
 # Email
 PRODUCT_COPY_FILES +=  \
@@ -69,13 +59,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
     vendor/Eclipse/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so 
-
-# Trinity kernel modules
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
-    vendor/Eclipse/proprietary/modules/cifs.ko:system/modules/cifs.ko \
-    vendor/Eclipse/proprietary/modules/md4.ko:system/modules/md4.ko \
-    vendor/Eclipse/proprietary/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko 
 
 # SU binary and APK
 PRODUCT_COPY_FILES +=  \

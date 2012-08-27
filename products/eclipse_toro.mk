@@ -8,6 +8,8 @@ PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03L BUILD_DISPLAY_ID=JRO03L BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
 
+KERNEL_MODULES_DIR:=/system/lib/modules
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
     ro.com.google.locationfeatures=1 \
@@ -25,5 +27,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
     vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
     vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+
+# Trinity Kernel - morfic
+PRODUCT_COPY_FILES +=  \
+vendor/Eclipse/prebuilt/common/kernel/gnex/boot.img:system/xbin/boot.img \
+
+# Trinity kernel modules
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
+    vendor/Eclipse/proprietary/modules/cifs.ko:system/modules/cifs.ko \
+    vendor/Eclipse/proprietary/modules/md4.ko:system/modules/md4.ko \
+    vendor/Eclipse/proprietary/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko
+
+# Sense 4 Clock
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \ 
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
