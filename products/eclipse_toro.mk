@@ -41,6 +41,6 @@ PRODUCT_COPY_FILES +=  \
 
 # Sense 4 Clock
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \ 
+    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
