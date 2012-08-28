@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
 
 # Email
 PRODUCT_COPY_FILES +=  \
