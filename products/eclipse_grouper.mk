@@ -27,3 +27,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
 vendor/Eclipse/prebuilt/common/kernel/nexus7/boot.img:system/xbin/boot.img \
 
+PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/grouper
+
