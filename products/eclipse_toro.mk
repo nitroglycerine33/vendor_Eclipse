@@ -39,8 +39,4 @@ PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/modules/md4.ko:system/modules/md4.ko \
     vendor/Eclipse/proprietary/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko
 
-# Sense 4 Clock
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/Sense4Clock.apk:system/app/Sense4Clock.apk \
-
 PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
