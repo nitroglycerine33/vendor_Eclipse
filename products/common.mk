@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES +=  \
 # Google Chrome
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Chrome.apk:system/app/Chrome.apk \
+    vendor/Eclipse/proprietary/lib/armeabi/libchromeview.so:system/lib/libchromeview.so
 
 # Email
 PRODUCT_COPY_FILES +=  \
