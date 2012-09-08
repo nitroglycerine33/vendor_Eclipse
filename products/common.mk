@@ -88,6 +88,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
-    ro.modversion=Eclipse-Build12 \
+    ro.modversion=Eclipse-Build15 \
     ro.kernel.android.checkjni=0 \
     windowsmgr.max_events_per_sec=240
