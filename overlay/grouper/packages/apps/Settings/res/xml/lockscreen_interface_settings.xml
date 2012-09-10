@@ -14,7 +14,7 @@
         android:fragment="com.android.settings.LockscreenSettings"
 	android:summary="@string/lockscreen_types_summary"
         android:title="@string/lock_screen_title" />
-
+-->
      <ListPreference
 	android:icon="@drawable/ic_settings_date_time"
         android:key="lockscreen_clock_align"
@@ -23,7 +23,7 @@
         android:title="@string/lockscreen_clock_align_title"
         android:entries="@array/lockscreen_clock_align_entries"
         android:entryValues="@array/lockscreen_clock_align_values"/>
--->
+
      <ListPreference
 	android:icon="@drawable/ic_settings_battery"
         android:key="lockscreen_battery_status"
