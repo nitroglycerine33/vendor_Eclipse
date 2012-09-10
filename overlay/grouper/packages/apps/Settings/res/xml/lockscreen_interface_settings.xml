@@ -7,14 +7,32 @@
     <PreferenceCategory
             android:key="lockscreen_category"
             android:title="Lockscreen Settings">
-<!--Grouper does not display alternate lockscreen well
+<!--Grouper does not use these values
     <PreferenceScreen
         android:id="@+id/lock_screen_settings"
 	android:icon="@drawable/ic_eclipse_lockscreen"
         android:fragment="com.android.settings.LockscreenSettings"
 	android:summary="@string/lockscreen_types_summary"
         android:title="@string/lock_screen_title" />
+
+     <ListPreference
+	android:icon="@drawable/ic_settings_date_time"
+        android:key="lockscreen_clock_align"
+        android:persistent="false"
+        android:dialogTitle="@string/lockscreen_clock_align_title"
+        android:title="@string/lockscreen_clock_align_title"
+        android:entries="@array/lockscreen_clock_align_entries"
+        android:entryValues="@array/lockscreen_clock_align_values"/>
 -->
+     <ListPreference
+	android:icon="@drawable/ic_settings_battery"
+        android:key="lockscreen_battery_status"
+        android:persistent="false"
+        android:dialogTitle="@string/lockscreen_battery_status_title"
+        android:title="@string/lockscreen_battery_status_title"
+        android:entries="@array/lockscreen_battery_status_entries"
+        android:entryValues="@array/lockscreen_battery_status_values"/>
+
      <Preference
 	android:icon="@drawable/ic_eclipse_weather"
         android:fragment="com.android.settings.cyanogenmod.Weather"
