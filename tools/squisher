@@ -76,8 +76,6 @@ rm -rf $REPACK/ota/recovery
 
 # remove send_bug.jar
 rm -rf $REPACK/ota/system/framework/send_bug.jar
-rm -rf $REPACK/ota/system/app/Provision.apk
-rm -rf $REPACK/ota/system/app/WAPPushManager.apk
 rm -rf $REPACK/ota/system/bin/bugmailer.sh
 
 # remove Home.apk
@@ -91,7 +89,7 @@ rm -rf $REPACK/ota/system/app/Browser.apk
 find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
 
 # Determine what to name the new signed package
-OUTFILE=$OUT/Eclipse-2.x.zip
+OUTFILE=$OUT/Eclipse-2.0.zip
 
 # Pack it up and sign
 printf "Zipping package..."
