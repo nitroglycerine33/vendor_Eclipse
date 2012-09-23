@@ -2,11 +2,11 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
 
 PRODUCT_NAME := eclipse_toro
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03R BUILD_DISPLAY_ID=JRO03R BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03O BUILD_DISPLAY_ID=JRO03O BUILD_FINGERPRINT="google/mysid/toro:4.1.1/JRO03O/424425:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.1.1 JRO03O 424425 release-keys" BUILD_NUMBER=424425
 
 KERNEL_MODULES_DIR:=/system/lib/modules
 
@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 
 # Trinity Kernel - morfic
 PRODUCT_COPY_FILES +=  \
-vendor/Eclipse/prebuilt/common/kernel/gnex/boot.img:system/xbin/boot.img \
+vendor/Eclipse/prebuilt/common/kernel/toro/boot.img:system/xbin/boot.img \
 
 # Trinity kernel modules
 PRODUCT_COPY_FILES +=  \
