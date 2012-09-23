@@ -15,6 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.com.android.dataroaming=false \
     ro.setupwizard.mode=OPTIONAL \
+    drm.service.enabled=true
 
 PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/media/LMprec_508.emd:system/media/LMprec_508.emd \
