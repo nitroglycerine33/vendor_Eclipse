@@ -9,11 +9,11 @@ $(call inherit-product, vendor/Eclipse/products/common.mk)
 
 #PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/d2vzw
 
-# Lean Kernel - Imoseyon
-PRODUCT_COPY_FILES +=  \
-vendor/Eclipse/prebuilt/common/kernel/d2vzw/boot.img:system/xbin/boot.img \
+# Prebuilt Kernel
+#PRODUCT_COPY_FILES +=  \
+#vendor/Eclipse/prebuilt/common/kernel/d2vzw/boot.img:system/xbin/boot.img \
 
-# Lean kernel modules/bins - Imoseyon
+# Kernel Modules
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/prebuilt/common/kernel/d2vzw/thermald:system/bin/thermald \
     vendor/Eclipse/prebuilt/common/kernel/d2vzw/ffc:system/xbin/ffc \
