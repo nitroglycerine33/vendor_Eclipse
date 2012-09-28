@@ -39,4 +39,3 @@ PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/modules/md4.ko:system/modules/md4.ko \
     vendor/Eclipse/proprietary/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
