@@ -81,9 +81,6 @@ rm -rf $REPACK/ota/system/bin/bugmailer.sh
 # remove Home.apk
 rm -rf $REPACK/ota/system/app/Home.apk
 
-# remove Browser.apk
-rm -rf $REPACK/ota/system/app/Browser.apk
-
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \
 find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded

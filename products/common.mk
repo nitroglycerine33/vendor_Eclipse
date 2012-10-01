@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    vendor/Eclipse/proprietary/HoloLauncher.apk:system/app/HoloLauncher.apk \
 
 # Google Chrome
 PRODUCT_COPY_FILES +=  \
