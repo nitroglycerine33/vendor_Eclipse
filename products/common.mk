@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     Stk \
     EclipseWallpapers \
     FileManager \
-    Torch \
     Wallpapers
 
 PRODUCT_COPY_FILES += \

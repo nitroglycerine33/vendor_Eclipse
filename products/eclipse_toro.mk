@@ -10,6 +10,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=JRO03O BUILD_DISPLAY
 
 KERNEL_MODULES_DIR:=/system/lib/modules
 
+PRODUCT_PACKAGES += \
+    Torch
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
     ro.com.google.locationfeatures=1 \

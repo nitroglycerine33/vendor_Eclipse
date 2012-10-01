@@ -14,6 +14,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_FINGERPRINT=samsung/
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
+PRODUCT_PACKAGES += \
+    Torch
+
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/tuna/vold.fstab:system/etc/vold.fstab
 

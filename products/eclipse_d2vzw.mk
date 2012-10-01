@@ -13,21 +13,8 @@ $(call inherit-product, vendor/Eclipse/products/common.mk)
 #PRODUCT_COPY_FILES +=  \
 #vendor/Eclipse/prebuilt/common/kernel/d2vzw/boot.img:system/xbin/boot.img \
 
-# Kernel Modules
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/thermald:system/bin/thermald \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/ffc:system/xbin/ffc \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/stocktherm:system/xbin/stocktherm \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/btlock.ko:system/lib/modules/btlock.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/dhd.ko:system/lib/modules/dhd.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/gspca_main.ko:system/lib/modules/gspca_main.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/qce40.ko:system/lib/modules/qce40.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/qcedev.ko:system/lib/modules/qcedev.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/Eclipse/prebuilt/common/kernel/d2vzw/vpnclient.ko:system/lib/modules/vpnclient.ko
+PRODUCT_PACKAGES += \
+    Torch
 
 # Setup device specific product configuration.
 PRODUCT_NAME := eclipse_d2vzw
