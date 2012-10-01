@@ -51,11 +51,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/HoloLauncher.apk:system/app/HoloLauncher.apk \
 
-# Google Chrome
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/Chrome.apk:system/app/Chrome.apk \
-    vendor/Eclipse/proprietary/lib/armeabi/libchromeview.so:system/lib/libchromeview.so
-
 # Email
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Email.apk:system/app/Email.apk \
