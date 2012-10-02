@@ -25,3 +25,9 @@ PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2vzw TARGET_DEVICE=d2vzw BUILD_FINGERPRINT="Verizon/d2vzw/d2vzw:4.0.4/IMM76D/I535VRALG7:user/release-keys" PRIVATE_BUILD_DESC="d2vzw-user 4.0.4 IMM76D I535VRALG7 release-keys"
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-verizon \
+    ro.com.google.locationfeatures=1 \
+    ro.config.qc_lte_network_modes=true \
+    drm.service.enabled=true
+
