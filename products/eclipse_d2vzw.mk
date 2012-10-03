@@ -7,7 +7,7 @@ $(call inherit-product, vendor/Eclipse/configs/cdma.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/Eclipse/products/common.mk)
 
-#PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/d2vzw
+PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/grouper/d2common
 
 # Prebuilt Kernel
 #PRODUCT_COPY_FILES +=  \
