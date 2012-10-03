@@ -53,21 +53,21 @@
         android:title="@string/power_menu_title"
 	android:summary="@string/power_menu_summary"
         android:fragment="com.android.settings.cyanogenmod.PowerMenu" />
-
+<!--
     <PreferenceScreen
         android:key="navigation_bar"
 	android:icon="@drawable/ic_eclipse_navbar"
         android:fragment="com.android.settings.cyanogenmod.NavBarSettings"
 	android:summary="@string/navigation_bar_summary"
         android:title="@string/navigation_bar_title" />
-<!--
+-->
     <PreferenceScreen
         android:key="hardware_keys"
 	android:icon="@drawable/ic_eclipse_navbar"
         android:fragment="com.android.settings.cyanogenmod.HardwareKeys"
 	android:summary="@string/hardware_keys_summary"
         android:title="@string/hardware_keys_title" />
--->        
+
     <PreferenceScreen
         android:key="wallpaper"
 	android:icon="@drawable/ic_eclipse_wallpaper"
