@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES +=  \
 
 # SU binary and APK
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/prebuilt/common/su:system/bin/su \
+    vendor/Eclipse/prebuilt/common/su:system/xbin/su \
     vendor/Eclipse/prebuilt/common/Superuser.apk:system/app/Superuser.apk
 
 # BusyBox binary
