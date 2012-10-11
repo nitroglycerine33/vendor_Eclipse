@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/media/video/Sunset.240p.mp4:system/media/video/Sunset.240p.mp4 \
     vendor/asus/grouper/proprietary/media/video/Sunset.480p.mp4:system/media/video/Sunset.480p.mp4
 
-# Franco Kernel
+# Trinity Kernel
 PRODUCT_COPY_FILES +=  \
 vendor/Eclipse/prebuilt/common/kernel/nexus7/boot.img:system/xbin/boot.img \
 
