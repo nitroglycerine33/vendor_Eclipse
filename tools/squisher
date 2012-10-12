@@ -65,9 +65,6 @@ $SED -i \
 -e '/ro\.build\.type/s/eng/user/' \
 $REPACK/ota/system/build.prop
 
-# Relocate boot.img - kind of a hack job but works for OTA zips
-mv $REPACK/ota/system/xbin/boot.img $REPACK/ota/boot.img
-
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
 

@@ -21,16 +21,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.mode=OPTIONAL \
     drm.service.enabled=true
 
-# Trinity Kernel - morfic
-PRODUCT_COPY_FILES +=  \
-vendor/Eclipse/prebuilt/common/kernel/maguro/boot.img:system/xbin/boot.img \
-
-# Trinity kernel modules
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
-    vendor/Eclipse/proprietary/modules/cifs.ko:system/modules/cifs.ko \
-    vendor/Eclipse/proprietary/modules/md4.ko:system/modules/md4.ko \
-    vendor/Eclipse/proprietary/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko
-
 PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/maguro
 
