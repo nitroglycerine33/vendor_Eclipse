@@ -1,6 +1,7 @@
 # Inherit AOSP device configuration for toroplus.
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
+$(call inherit-product, vendor/Eclipse/products/common_phone.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := eclipse_toroplus

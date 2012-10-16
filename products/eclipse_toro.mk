@@ -1,5 +1,6 @@
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
+$(call inherit-product, vendor/Eclipse/products/common_phone.mk)
 
 PRODUCT_NAME := eclipse_toro
 PRODUCT_BRAND := google

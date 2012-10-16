@@ -1,5 +1,6 @@
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
+$(call inherit-product, vendor/Eclipse/products/common_phone.mk)
 
 PRODUCT_NAME := eclipse_maguro
 PRODUCT_BRAND := google

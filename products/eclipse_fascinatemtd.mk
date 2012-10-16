@@ -1,5 +1,6 @@
 $(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
+$(call inherit-product, vendor/Eclipse/products/common_phone.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := eclipse_fascinatemtd

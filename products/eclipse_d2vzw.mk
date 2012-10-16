@@ -6,6 +6,7 @@ $(call inherit-product, vendor/Eclipse/configs/cdma.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/Eclipse/products/common.mk)
+$(call inherit-product, vendor/Eclipse/products/common_phone.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/d2common
 
