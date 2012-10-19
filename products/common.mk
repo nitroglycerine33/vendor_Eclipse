@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/HoloLauncher.apk:system/app/HoloLauncher.apk \
+    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
 
 # Email
 PRODUCT_COPY_FILES +=  \
