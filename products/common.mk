@@ -43,18 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/sysro:system/xbin/sysro \
     vendor/Eclipse/prebuilt/common/sysrw:system/xbin/sysrw
 
-# Compcache/Zram support
-PRODUCT_COPY_FILES += \
-    vendor/Eclipse/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
-    vendor/Eclipse/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/Eclipse/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
-
-# Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/Eclipse/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/Eclipse/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/Eclipse/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh
-
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
