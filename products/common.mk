@@ -43,6 +43,15 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/sysro:system/xbin/sysro \
     vendor/Eclipse/prebuilt/common/sysrw:system/xbin/sysrw
 
+# Eclipse-specific init file
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/init.local.rc:root/init.cm.rc
+
+# Compcache/Zram support
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/Eclipse/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
+
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
