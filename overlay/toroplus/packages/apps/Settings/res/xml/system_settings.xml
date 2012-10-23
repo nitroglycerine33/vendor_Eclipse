@@ -44,7 +44,7 @@
         android:key="clock_tablet"
 	android:icon="@drawable/ic_eclipse_systemui"
         android:fragment="com.android.settings.eclipse.fragments.StatusBarClockTablet"
-	android:summary="@string/header_summary_clock"
+	android:summary="@string/header_summary_clock_tablet"
         android:title="@string/clock" />
 
     <PreferenceScreen
@@ -77,7 +77,7 @@
 <!--
     <PreferenceScreen
         android:key="hardware_keys"
-	android:icon="@drawable/ic_eclipse_navbar"
+	android:icon="@drawable/ic_eclipse_hardware_keys"
         android:fragment="com.android.settings.cyanogenmod.HardwareKeys"
 	android:summary="@string/hardware_keys_summary"
         android:title="@string/hardware_keys_title" />
