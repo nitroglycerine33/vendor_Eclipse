@@ -39,14 +39,14 @@
         android:fragment="com.android.settings.eclipse.fragments.StatusBarClock"
 	android:summary="@string/header_summary_clock"
         android:title="@string/clock" />
-
+<!--
     <PreferenceScreen
         android:key="clock_tablet"
 	android:icon="@drawable/ic_eclipse_systemui"
         android:fragment="com.android.settings.eclipse.fragments.StatusBarClockTablet"
 	android:summary="@string/header_summary_clock_tablet"
         android:title="@string/clock" />
-
+-->
     <PreferenceScreen
         android:key="notification_drawer"
 	android:icon="@drawable/ic_eclipse_widget"
