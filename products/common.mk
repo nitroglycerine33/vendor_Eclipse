@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     Stk \
     EclipseWallpapers \
     FileManager \
+    Email \
     Wallpapers
 
 PRODUCT_COPY_FILES += \
