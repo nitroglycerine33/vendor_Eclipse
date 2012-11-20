@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
 
+# QuickSettingsControlPanel
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk \
+
 # JB 4.2 Keyboard
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/LatinIME.apk:system/app/LatinIME.apk \
