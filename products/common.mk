@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     EclipseWallpapers \
     FileManager \
     Email \
+    Lunar \
     Wallpapers
 
 PRODUCT_COPY_FILES += \
