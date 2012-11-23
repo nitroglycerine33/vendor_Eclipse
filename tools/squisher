@@ -78,6 +78,9 @@ rm -rf $REPACK/ota/system/bin/bugmailer.sh
 # remove Home.apk
 rm -rf $REPACK/ota/system/app/Home.apk
 
+# Relocate boot.img - kind of a hack job but works for OTA zips
+mv $REPACK/ota/system/xbin/boot.img $REPACK/ota/boot.img
+
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \
 find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded

@@ -13,6 +13,10 @@ KERNEL_MODULES_DIR:=/system/lib/modules
 #PRODUCT_PACKAGES += \
 #    Torch
 
+# Lean Kernel
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/tuna/boot.img:system/xbin/boot.img \
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
     ro.com.google.locationfeatures=1 \
