@@ -20,6 +20,9 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     vendor/Eclipse/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
 
+# CM T-Mobile Theme Engine
+include vendor/Eclipse/products/themes_common.mk
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
