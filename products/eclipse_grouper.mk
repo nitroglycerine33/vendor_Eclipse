@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/grouper/boot.img:system/xbin/boot.img \
 
 PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/grouper/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/Eclipse/prebuilt/grouper/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/grouper/proprietary/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/asus/grouper/proprietary/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
     vendor/asus/grouper/proprietary/media/video/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
