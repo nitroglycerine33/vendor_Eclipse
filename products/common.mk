@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     EclipseWallpapers \
     FileManager \
     Email \
-    Lunar \
     Wallpapers
 
 PRODUCT_COPY_FILES += \
@@ -48,6 +47,10 @@ PRODUCT_COPY_FILES += \
 # Appwidgetpicker
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
+    
+# Nova launcher
+PRODUCT_COPY_FILES +=  \
+    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
 
 # JB 4.2 Keyboard
 PRODUCT_COPY_FILES +=  \
