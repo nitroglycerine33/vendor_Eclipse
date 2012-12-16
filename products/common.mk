@@ -57,14 +57,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/LatinIME.apk:system/app/LatinIME.apk \
     vendor/Eclipse/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
-# JB 4.2 Camera
-PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/GmsCore.apk:system/app/GmsCore.apk \
-    vendor/Eclipse/proprietary/Gallery2.apk:system/app/Gallery2.apk \
-    vendor/Eclipse/proprietary/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/Eclipse/proprietary/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
-    vendor/Eclipse/proprietary/lib/liblightcycle.so:system/lib/liblightcycle.so
-
 # Term binary for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/Term.apk:system/app/Term.apk \
