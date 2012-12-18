@@ -26,6 +26,10 @@ include vendor/Eclipse/products/themes_common.mk
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/Eclipse/prebuilt/common/bin/sysinit:system/bin/sysinit
+    
+# Eclipse-specific init files
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/init.local.rc:root/init.cm.rc
 
 # Term info for nano support
 PRODUCT_COPY_FILES += \
