@@ -53,8 +53,12 @@ PRODUCT_COPY_FILES +=  \
     vendor/Eclipse/proprietary/AppWidgetPicker.apk:system/app/AppWidgetPicker.apk \
     
 # Nova launcher
+#PRODUCT_COPY_FILES +=  \
+#    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    
+# Holo launcher
 PRODUCT_COPY_FILES +=  \
-    vendor/Eclipse/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    vendor/Eclipse/proprietary/HoloLauncher.apk:system/app/HoloLauncher.apk \
 
 # JB 4.2 Keyboard
 PRODUCT_COPY_FILES +=  \
