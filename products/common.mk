@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 # CM T-Mobile Theme Engine
 include vendor/Eclipse/products/themes_common.mk
 
+# Eclipse-specific init files
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/common/etc/CHANGELOG-ECLIPSE.txt:system/etc/CHANGELOG-ECLIPSE.txt
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
@@ -94,4 +98,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
     ro.kernel.android.checkjni=0 \
+    ro.eclipse.version=3.1-build-2
     windowsmgr.max_events_per_sec=240
