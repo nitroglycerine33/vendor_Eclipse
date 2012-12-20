@@ -14,8 +14,8 @@ KERNEL_MODULES_DIR:=/system/lib/modules
 #    Torch
 
 # Lean Kernel
-PRODUCT_COPY_FILES += \
-    vendor/Eclipse/prebuilt/tuna/boot.img:system/xbin/boot.img \
+#PRODUCT_COPY_FILES += \
+#    vendor/Eclipse/prebuilt/tuna/boot.img:system/xbin/boot.img \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-verizon \
