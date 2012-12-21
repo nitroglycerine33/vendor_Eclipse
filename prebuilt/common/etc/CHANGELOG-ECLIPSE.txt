@@ -1,2 +1,96 @@
-Eclipse 3.1 - build 2
-Added awesome stuff
+Eclipse 3.1 - build 2 changelog
+
+NAVIGATION BAR
+-Customizable navigation bar with 5 hotseats
+-Change nav bar soft key color
+-Customize nav bar long press actions
+-Customize nav bar height/width
+-Customize button transparency
+-Customize nav bar glow animation speed
+
+STATUS BAR/CLOCK
+-Choose between right, center or hide clock
+-Choose to show small, large or hide AM/PM
+-Choose to show Day of the week (small/large)
+
+POWER MENU
+-Choose which items you would like in the extended power menu
+-Ability to hide status bar and nav bar (expanded desktop)
+
+LOCKSCREEN
+-Customize up to 5 hotseats on the lockscreen
+
+NOTIFICATION LED
+-Customize LED color and blink speed
+
+POWER WIDGETS/TOGGLES/QUICK SETTINGS
+-Made quickpanel settings act like toggles
+-Fixed issue hiding old style power widgets/toggles
+-Added LTE toggles
+
+SOUND/VOLUME
+-Choose between normal and expanded volume menu
+-Ability to unlink ringtone/notification volume
+-Removed duplicate ringtones and notification sounds
+-Volume rocker music controls
+-Quiet Hours
+
+DISPLAY
+-Volume rocker to wake device
+-Choose rotation degrees 0, 90, 180, 270
+
+LANGUAGE & INPUT
+-Ability to show/hide IME (keyboard selector)
+-Removed Chinese and Japanese languages
+
+MISC
+-Added CM's Profiles
+-Show developer options by default
+-Added ability to view changelog and build number in about phone/tablet
+-Added about Eclipse Rom in settings
+
+PERFORMANCE
+-Added ability to customize CPU speed
+-Added ability to change kernel voltage (with a supported kernel)
+
+GOOGLE APPS
+-Updated Google Now
+-Updated Inverted Gmail
+-Updated Google Ears
+-Updated Google Maps
+-Updated YouTube and resolved sign in issues
+
+TERMINAL
+-Updated Terminal Emulator
+
+Super SU
+-Updated Super SU and binary
+
+CAMERA
+-Removed Google Photosphere and added AOSP version
+
+CALENDAR
+-Updated Calendar
+-Resolved issues with calendar sync/display
+
+MESSAGING/MMS
+-Added Quick Reply
+-Added emoji support
+-Vibration pattern
+-Gestures
+-Timestamps
+-Templates
+-Change out emoji/enter key
+
+DESKCLOCK
+-Resolved issue when launching day dream settings
+
+LAUNCHER
+-Set Holo Launcher HD as the default launcher
+
+KERNEL
+-Default kernel is now Luna kernel
+-OTG USB support
+
+GENERAL
+-Resolved some theme issues
