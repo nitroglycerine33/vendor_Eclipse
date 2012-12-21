@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     FileManager \
     Email \
     LiveWallpapers \
+    LiveWallpapersPicker \
     Galaxy4 \
     HoloSpiralWallpaper \
     PhaseBeam    
