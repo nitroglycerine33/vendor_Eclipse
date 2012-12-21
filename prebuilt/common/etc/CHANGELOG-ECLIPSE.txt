@@ -90,7 +90,16 @@ LAUNCHER
 
 KERNEL
 -Default kernel is now Luna kernel
--OTG USB support
+-Added Trinity style colors to luna
+-Increased readahead values from 128 to 1024
+-Can be overclocked to 1350mhz
+-Slightly undervolted
+-Wi-fi PM tweaks
+-Vibrator Intensity controls
+-GPU can be overclocked up to 512mhz
+-Voltage Controls
+-Thermal throttling tweaks
+-Native OTG USB
 
 GENERAL
 -Resolved some theme issues
