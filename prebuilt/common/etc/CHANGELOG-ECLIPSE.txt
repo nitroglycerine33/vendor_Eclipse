@@ -1,3 +1,15 @@
+Eclipse 3.1 - build 3 changelog
+
+-Merged lean kernel source on gnex (resolves wake locks as well)
+-Update terminal emulator
+-Added Flash to Gapps 12/24 (I still use it)
+-New Gapps 12/24
+-Added a "clear all" to recents panel
+-Fixed beans day dream
+-Fixed easter egg in about settings
+-Fixed dialpad settings options
+-Added T9 dialer
+
 Eclipse 3.1 - build 2 changelog
 
 NAVIGATION BAR
@@ -99,7 +111,7 @@ KERNEL
 -GPU can be overclocked up to 512mhz
 -Voltage Controls
 -Thermal throttling tweaks
--Native OTG USB
+-Native OTG USB - Gnex
 
 GENERAL
 -Resolved some theme issues
