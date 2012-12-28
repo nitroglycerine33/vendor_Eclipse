@@ -1,3 +1,9 @@
+Eclipse 3.1 - build 4 changelog
+
+-Fixed contacts issue force closing when viewing contact card
+-Switched from Holo Launcher to Apex Launcher
+-Added Facebook contact sync (if coming from another build you will need to clear Contacts Storage app data for this to function properly)
+
 Eclipse 3.1 - build 3 changelog
 
 -Merged lean kernel source on gnex (resolves wake locks as well)
