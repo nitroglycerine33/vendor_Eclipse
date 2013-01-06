@@ -1,8 +1,9 @@
 [Dolphin]
-AdditionalInfo=Details_Size,Details_Date,CustomizedDetails
 PreviewsShown=true
-Timestamp=2012,12,16,16,38,36
+Timestamp=2013,1,3,18,28,53
+Version=3
 ViewMode=1
+VisibleRoles=Details_size,Details_date,CustomizedDetails
 
 [Settings]
 HiddenFilesShown=true

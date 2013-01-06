@@ -17,7 +17,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     Galaxy4 \
     HoloSpiralWallpaper \
-    PhaseBeam    
+    PhaseBeam \
+    LockClock
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
