@@ -1,6 +1,9 @@
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 $(call inherit-product, vendor/Eclipse/products/common.mk)
 
+# Inherit common cdma apns
+$(call inherit-product, vendor/Eclipse/configs/cdma.mk)
+
 # Setup device specific product configuration.
 PRODUCT_NAME := eclipse_toroplus
 PRODUCT_BRAND := Google
@@ -22,4 +25,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     drm.service.enabled=true
     
-#PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/toro
+
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/common/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/Eclipse/common/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/Eclipse/common/video/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
+    vendor/Eclipse/common/video/AndroidInSpace.480p.mp4:system/media/video/AndroidInSpace.480p.mp4 \
+    vendor/Eclipse/common/video/Disco.240p.mp4:system/media/video/Disco.240p.mp4 \
+    vendor/Eclipse/common/video/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
+    vendor/Eclipse/common/video/Sunset240p.mp4:system/media/video/Sunset240p.mp4 \
+    vendor/Eclipse/common/video/Sunset480p.mp4:system/media/video/Sunset480p.mp4
+    
