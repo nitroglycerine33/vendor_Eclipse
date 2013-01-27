@@ -1,3 +1,18 @@
+Eclipse 3.1 - build 5 changelog
+-Added ability to retrieve mms messages while roaming
+-Fixed navbar search softkey
+-Changes to Bluetooth, A2DP
+-Improved browser settings
+-Added d2vzw, maguro and toroplus support
+-Added stylus options for devices
+-Fixes to tethering
+-Added CM Chronus weather/clock widget
+-Added hardware key settings for devices with capacitive keys
+-Added a new gapps option package
+-Merged some random fixes from CM
+-Added modded AOSP camera (one gapps package includes photosphere option)
+-Added ability to increase max text messages sent from 30 up to 200 adjustable in security settings
+
 Eclipse 3.1 - build 4 changelog
 
 -Fixed contacts issue force closing when viewing contact card
