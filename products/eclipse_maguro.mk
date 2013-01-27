@@ -12,7 +12,6 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yak
 KERNEL_MODULES_DIR:=/system/lib/modules
 
 PRODUCT_PACKAGES += \
-    Torch \
     Stk
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -22,5 +21,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.mode=OPTIONAL \
     drm.service.enabled=true
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/maguro
+PRODUCT_COPY_FILES += \
+    vendor/Eclipse/common/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/Eclipse/common/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/Eclipse/common/video/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
+    vendor/Eclipse/common/video/AndroidInSpace.480p.mp4:system/media/video/AndroidInSpace.480p.mp4 \
+    vendor/Eclipse/common/video/Disco.240p.mp4:system/media/video/Disco.240p.mp4 \
+    vendor/Eclipse/common/video/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
+    vendor/Eclipse/common/video/Sunset240p.mp4:system/media/video/Sunset240p.mp4 \
+    vendor/Eclipse/common/video/Sunset480p.mp4:system/media/video/Sunset480p.mp4
 
