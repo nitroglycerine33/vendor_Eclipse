@@ -29,6 +29,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #PRODUCT_PACKAGE_OVERLAYS += vendor/Eclipse/overlay/maguro
 
 PRODUCT_COPY_FILES += \
+    vendor/Eclipse/prebuilt/maguro/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
+    vendor/Eclipse/prebuilt/maguro/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \    vendor/Eclipse/prebuilt/maguro/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/Eclipse/prebuilt/maguro/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/Eclipse/prebuilt/maguro/lib/hw/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
+    vendor/Eclipse/prebuilt/maguro/etc/sirfgps.conf:system/vendor/etc/sirfgps.conf \
+    vendor/Eclipse/prebuilt/maguro/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/Eclipse/common/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/Eclipse/common/PFFprec_600.emd:system/media/PFFprec_600.emd \
     vendor/Eclipse/common/video/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
