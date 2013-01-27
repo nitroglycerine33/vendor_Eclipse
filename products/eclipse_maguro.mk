@@ -30,7 +30,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     vendor/Eclipse/prebuilt/maguro/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-    vendor/Eclipse/prebuilt/maguro/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \    vendor/Eclipse/prebuilt/maguro/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/Eclipse/prebuilt/maguro/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/Eclipse/prebuilt/maguro/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/Eclipse/prebuilt/maguro/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/Eclipse/prebuilt/maguro/lib/hw/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
     vendor/Eclipse/prebuilt/maguro/etc/sirfgps.conf:system/vendor/etc/sirfgps.conf \
