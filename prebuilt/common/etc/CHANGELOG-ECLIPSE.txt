@@ -1,3 +1,10 @@
+Eclipse 3.1 - build 6 changelog
+-Fix lockscreen settings
+-Update cLock (Chronus)
+-Update gapps
+-Updated kernels
+-Fix d2vzw
+
 Eclipse 3.1 - build 5 changelog
 -Added ability to retrieve mms messages while roaming
 -Fixed navbar search softkey
