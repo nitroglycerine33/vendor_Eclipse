@@ -99,5 +99,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
     ro.kernel.android.checkjni=0 \
-    ro.eclipse.version=3.1-build-5
+    ro.eclipse.version=3.1-build-6
     windowsmgr.max_events_per_sec=240
